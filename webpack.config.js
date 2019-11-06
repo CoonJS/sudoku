@@ -14,12 +14,6 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.jsx?$/,
-        enforce: 'pre',
-        loader: 'prettier-loader',
-        exclude: /node_modules/,
-      },
-      {
         test: /\.html$/,
         loader: 'html-loader',
       },
